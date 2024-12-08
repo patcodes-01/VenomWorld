@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url(../Background/Background\ Image.png);
+    min-height: 100vh;
+    background-size: 25vw 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#board{
+    background: linear-gradient(rgb(118, 244, 118) , rgb(252, 252, 127));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+}
+
+.head{
+    background-color: grey;
+}
+
+.snake{
+    background-color: black;
+}
+
+.food{
+    background-color: pink;
+}
